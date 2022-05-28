@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
+  --bg-color: #a5adbe;/*#00163f;*/
   --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #ff0000;/*#be7efe;*/
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -323,9 +323,16 @@ section {
   z-index: -1;
 }
 
+.splide2 {
+  position: absolute;
+  top: 90px;
+  right: 5rem;
+  z-index: -1;
+}
+
 .splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 5px 10px;
+  /*border: var(--accent-color) solid;
+  border-width: 1px 5px;*/
 }
 
 .splide__slide img {

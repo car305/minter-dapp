@@ -31,10 +31,23 @@ window.addEventListener("DOMContentLoaded", async () => {
     pagination: false,
     autoplay: true,
     direction: 'ttb',
-    height: "calc(100vh - 90px)",
-    width: '30vw',
+    height: "calc(100vh - 120px)",
+    width: '20vw',
     autoHeight: true,
   });
+
+  const splide2 = new Splide(".splide2", {
+    type: "loop",
+    arrows: false,
+    perMove: 3,
+    pagination: false,
+    autoplay: true,
+    direction: 'ttb',
+    height: "calc(100vh - 120px)",
+    width: '20vw',
+    autoHeight: true,
+  });
+  splide2.mount();  
   splide.mount();
 
   updateConnectStatus();

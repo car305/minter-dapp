@@ -1,9 +1,9 @@
 const contractAddress = "0xC1cEdC7DBf49E3dFCF47800c5789851ceEC1DeD3"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the Banuar NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = '<strong>"Banuar"</strong> is an Ilocano word for <strong>"hero"</strong>. <br> Our mission is to bring more Filipinos into blockchain. <br><br>This collection was created as our own little way of giving tribute <br>to all our heroes after the <strong>#MaJoHa</strong> incident.<br><br><strong>Ginawa ng Filipino para sa ating mga Filipino!</strong>';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
